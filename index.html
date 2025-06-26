@@ -60,38 +60,54 @@
 
     <section id="skills" class="skills">
         <h2 class="section-title">My Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card"><i class="fab fa-html5"></i><span>HTML</span></div>
-            <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
-            <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
-            <div class="skill-card"><i class="fas fa-database"></i><span>MongoDB</span></div>
-            <div class="skill-card"><i class="fab fa-react"></i><span>React.js</span></div>
-            <div class="skill-card"><i class="fab fa-node-js"></i><span>Node.js</span></div>
-            <div class="skill-card"><i class="fas fa-code"></i><span>C++</span></div>
-            <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
-            <div class="skill-card"><i class="fas fa-c"></i><span>C</span></div>
-            <div class="skill-card"><i class="fab fa-java"></i><span>Java</span></div>
+        <div class="scroll-container">
+            <button class="scroll-button left" data-target="skills-grid" disabled>
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fab fa-html5"></i><span>HTML</span></div>
+                <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <div class="skill-card"><i class="fas fa-database"></i><span>MongoDB</span></div>
+                <div class="skill-card"><i class="fab fa-react"></i><span>React.js</span></div>
+                <div class="skill-card"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                <div class="skill-card"><i class="fas fa-code"></i><span>C++</span></div>
+                <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
+                <div class="skill-card"><i class="fas fa-c"></i><span>C</span></div>
+                <div class="skill-card"><i class="fab fa-java"></i><span>Java</span></div>
+            </div>
+            <button class="scroll-button right" data-target="skills-grid">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
     </section>
 
     <section id="projects" class="projects">
         <h2 class="section-title">My Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Full-Stack Course Selling App</h3>
-                <p>Built a full-stack course-selling platform with MERN stack, featuring role-based dashboards, JWT auth, and a responsive UI with Tailwind CSS.</p>
-                <!-- <a href="https://github.com/project-one" target="_blank">View on GitHub</a> -->
+        <div class="scroll-container">
+            <button class="scroll-button left" data-target="project-grid" disabled>
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Full-Stack Course Selling App</h3>
+                    <p>Built a full-stack course-selling platform with MERN stack, featuring role-based dashboards, JWT auth, and a responsive UI with Tailwind CSS.</p>
+                    <!-- <a href="https://github.com/project-one" target="_blank">View on GitHub</a> -->
+                </div>
+                <div class="project-card">
+                    <h3>Credit Card Fraud Detection Using ML</h3>
+                    <p>Built a credit card fraud detection system using Logistic Regression with 91.8% accuracy, deployed via a Streamlit app for real-time predictions.</p>
+                    <!-- <a href="https://github.com/project-two" target="_blank">View on GitHub</a> -->
+                </div>
+                <div class="project-card">
+                    <h3>Full-Stack Social Media Platform</h3>
+                    <p>Created a social media platform with the MERN stack, featuring user auth, post creation, and an interactive, responsive UI for sharing visual content.</p>
+                    <!-- <a href="https://github.com/project-four" target="_blank">View on GitHub</a> -->
+                </div>
             </div>
-            <div class="project-card">
-                <h3>Credit Card Fraud Detection Using ML</h3>
-                <p>Built a credit card fraud detection system using Logistic Regression with 91.8% accuracy, deployed via a Streamlit app for real-time predictions.</p>
-                <!-- <a href="https://github.com/project-two" target="_blank">View on GitHub</a> -->
-            </div>
-            <div class="project-card">
-                <h3>Full-Stack Social Media Platform</h3>
-                <p>Created a social media platform with the MERN stack, featuring user auth, post creation, and an interactive, responsive UI for sharing visual content.</p>
-                <!-- <a href="https://github.com/project-four" target="_blank">View on GitHub</a> -->
-            </div>
+            <button class="scroll-button right" data-target="project-grid">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
     </section>
 
@@ -112,6 +128,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 </html>
